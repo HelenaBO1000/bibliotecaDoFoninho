@@ -1,4 +1,4 @@
-const livros =[]
+//const livros =[]
 
 /**
  * Função para adicionar livros na coleção
@@ -6,7 +6,7 @@ const livros =[]
  * @param {*} livro - um novo livro
  * @returns colecao com novo livro
  */
-const adicionarLivro = (livros, livro) => {
+/*const adicionarLivro = (livros, livro) => {
     livros.push(livro)
     return livros
 }
@@ -14,13 +14,13 @@ const adicionarLivro = (livros, livro) => {
 const listar = id => {
 
 }
-
+*/
 /**
  * Função que pesquisa livros pelo titulo
  * @param {*} livros - array de livros
  * @param {*} titulo - parâmetro de pesquisa
  */
-const pesquisarLivros = (livros, titulo) => {
+/*const pesquisarLivros = (livros, titulo) => {
     
 }
 
@@ -42,3 +42,4 @@ const estatisticas = () =>{
 
 //dá visibilidade a algumas funções do arquivo.js
 module.exports = {adicionarLivro, pesquisarLivros}
+*/

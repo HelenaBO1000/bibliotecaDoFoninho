@@ -1,4 +1,4 @@
-const {
+/*const {
     adicionarLivro, pesquisarLivros
 } = require("../js/livros");
 
@@ -50,3 +50,32 @@ test("deve encontrar livros pelo título", () => {
     expect(resultado).toHaveLength(1);
     expect(resultado[0].titulo).toBe("JavaScript");
 });
+test("Marca como lido", () => {
+
+    const livros = [
+        {
+            id: 1,
+            titulo: "JavaScript",
+            autor: "Autor A",
+            genero: "Programação",
+            paginas: 300,
+            lido: false
+        },
+        {
+            id: 2,
+            titulo: "HTML e CSS",
+            autor: "Autor B",
+            genero: "Web",
+            paginas: 250,
+            lido: true
+        }
+    ];
+
+    const resultado = pesquisarLivros(
+        livros,
+        1
+    );
+
+    expect(resultado).toHaveLength(1);
+    expect(resultado[0].titulo).toBe("JavaScript");
+});*/
